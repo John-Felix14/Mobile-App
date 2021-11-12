@@ -1,11 +1,6 @@
 <?php
 include 'DatabaseConfig.php';
 
-$HostName = "94phapp1";
-$DatabaseName = "mysql";
-$HostUser = "admin";
-$HostPass = "ChiefLanLord123";
-
 // Create connection
 $conn = new mysqli($HostName , $HostName, $Hostname, $DatabaseName);
 
