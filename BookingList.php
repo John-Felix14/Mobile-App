@@ -2,7 +2,7 @@
 include 'DatabaseConfig.php';
 
 // Create connection
-$conn = new mysqli($Hostname, $Hostname, $Hostname, $Databasename);
+$conn = new mysqli($hostName , $userName, $password, $databaseName);
 
 
 if ($conn->connect_error) {

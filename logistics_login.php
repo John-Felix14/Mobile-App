@@ -2,7 +2,7 @@
 include 'DatabaseConfig.php';
 
 
-     require_once('dbConfig.php');
+    //  require_once('dbConfig.php');
 	 
 	 // Check whether username or password is set from android	
     if(isset($_POST['username']) && isset($_POST['password']))

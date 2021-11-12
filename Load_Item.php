@@ -2,7 +2,7 @@
 include 'DatabaseConfig.php';
 
 // Create connection
-$conn = new mysqli($HostName, $HostName, $HostName, $DatabaseName;
+$conn = new mysqli($hostName , $userName, $password, $databaseName);
 
 if ($conn->connect_error) {
  
@@ -54,4 +54,3 @@ if ($conn->connect_error) {
     echo json_encode($response);
 }
 	mysqli_close($conn);
-?>

@@ -2,13 +2,13 @@
 include 'DatabaseConfig.php';
 
 
-$HostName = "94phapp1";
-$DatabaseName = "mysql";
-$HostUser = "admin";
-$HostPass = "ChiefLanLord123";
+// $HostName = "94phapp1";
+// $DatabaseName = "mysql";
+// $HostUser = "admin";
+// $HostPass = "ChiefLanLord123";
 
 // Create connection
-$conn = new mysqli($HostName $HostName, $HostName, $DatabaseName);
+$conn = new mysqli($hostName , $userName, $password, $databaseName);
 
 if ($conn->connect_error) {
  
