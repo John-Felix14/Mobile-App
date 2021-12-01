@@ -6,7 +6,7 @@ include 'DatabaseConfig.php';
 $conn = new mysqli($hostName ,$userName ,$password ,$databaseName);
 
 
-if ($connconn->connection_error) {
+if ($conn->connection_error) {
 
     die("Connection failed: " . $conn->connect_error);
 }
